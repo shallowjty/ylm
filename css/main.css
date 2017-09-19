@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+blockquote,body,button,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+fieldset,img {
+	border: 0
+}
+
+:focus {
+	outline: 0
+}
+
+address,caption,cite,code,dfn,em,optgroup,th,var {
+	font-weight: 400;
+	font-style: normal
+}
+
+abbr,acronym {
+	border: 0;
+	font-variant: normal
+}
+
+button,input,optgroup,option,select,textarea {
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: inherit;
+	font-family: inherit
+}
+
+code,kbd,samp,tt {
+	font-size: 100%
+}
+
+button,input,select,textarea {
+	color: #000
+}
+
+body {
+	overflow-x: auto;
+	font: 14px/1.5 arial,"Microsoft Yahei","微软雅黑"
+}
+
+ol,ul {
+	list-style: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+caption,th {
+	text-align: left
+}
+
+sub,sup {
+	vertical-align: baseline;
+	font-size: 100%
+}
+
+:link,:visited,ins {
+	text-decoration: none;
+	color: #0039E5
+}
+
+blockquote,q {
+	quotes: none
+}
+
+blockquote:after,blockquote:before,q:after,q:before {
+	content: '';
+	content: none
+}
+
+html {
+	height: 100%;
+	min-height: 100%
+}
+
+body {
+	height: 100%;
+	background-color: #fff
+}
+
+* {
+	box-sizing: border-box
+}
+
+input::-webkit-input-placeholder {
+	color: #999;
+	font-size: 14px
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0
+}
+
+.clear {
+	zoom: 1
+}
+.head{background: #0096ff;}
+.Location{
+    float: left;
+}
+	.Location i{color: white;}
+	.Location span{color:white; font-size: .21rem;}
+	.sin{float: right;color: white;font-size: .21rem;}
+	.head_input{
+    text-align: center;
+    background: #0096ff;
+}
+	.head_input input{
+    width: 90%;
+    height: .69rem;
+    border-radius: 40px;
+    border: 0;
+    text-align: center;
+    color: #b3b2b2;
+}
+.head_input p{}
+	.head_input p span{color: white;}
+	.take_list{}
+		.take_list{}
+			.take_list ul{}
+				.take_list ul li{float: left;width: 25%;text-align: center;}
+						.take_list ul li img{width: 1.33rem; height: 1.33rem; }
+.take_list ul li p{text-align: center;}
+.show_sj{}
+	.show_sj_img{width: 1.33rem; height: 1.33rem;float: left;}
+		.show_sj_img img{width: 1.33rem; height: 1.33rem}
+			.show_food_c p:nth-child(1){}
+				.show_food_c p:nth-child(2){}
+					.show_food_c p:nth-child(3){}
+						.show_food_pj p:nth-child(1){}
+							.show_food_pj p:nth-child(2){}
+								.show_food_pj p:nth-child(3){}
+									.show_food_c{float: left;margin-left:.5rem; }
+								 .show_food_pj{float: right;margin-right: .13rem;}
